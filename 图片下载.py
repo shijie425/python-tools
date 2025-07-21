@@ -37,7 +37,7 @@ def download_aws(url):
     for i in range(10):
         session_id = 'session-' + ''.join(random.sample(all_text, 15))
     country = 'US'
-    proxy = {"http": "ipidea_xfx-zone-custom-region-{country}-sessTime-30-{time_session}:password@643cfb36cf37ef59.na.ipidea.online:2333".format(
+    proxy = {"http": "user-zone-custom-region-{country}-sessTime-30-{time_session}:password@643cfb36cf37ef59.na.ipidea.online:2333".format(
                             country=country, time_session=session_id)
                     }
 
